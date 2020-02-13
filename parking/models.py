@@ -20,3 +20,11 @@ class Parking(models.Model):
     create_time = models.DateField(default=datetime.now, verbose_name='创建时间')
     update_time = models.DateField(verbose_name='更新时间')
 
+    class Meta:
+        verbose_name = '停车记录'
+        verbose_name_plural = verbose_name
+
+    def __str__(self):
+        return self.car_plate
+
+
