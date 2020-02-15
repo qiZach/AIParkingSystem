@@ -17,7 +17,14 @@ from django.contrib import admin
 from django.urls import path
 import xadmin
 
+from parking.views import IdentifyView
+from order import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('xadmin/', xadmin.site.urls),
+    # 传入车牌进行识别
+    path('identify/', IdentifyView.as_view(), name='identify'),
+    path('show_msg/', views.show_msg),
+    path('check_order/', views.check_order),
 ]

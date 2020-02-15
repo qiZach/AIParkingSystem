@@ -20,10 +20,13 @@ class Order(models.Model):
     payment_type = models.CharField(max_length=10, default='0',
                                     choices=(('1', '支付宝'),
                                              ('2', '微信'),
-                                             ('0', '未支付')))
-    payment_time = models.DateField(verbose_name='支付时间')
-    create_time = models.DateField(default=datetime.now, verbose_name='创建时间')
-    update_time = models.DateField(verbose_name='更新时间')
+                                             ('0', '未支付')),
+                                    verbose_name='支付类型')
+    payment_time = models.DateTimeField(null=True, blank=True,
+                                        verbose_name='支付时间')
+    create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
+    update_time = models.DateTimeField(null=True, blank=True, auto_now=True,
+                                       verbose_name='更新时间')
 
     class Meta:
         verbose_name = '订单'

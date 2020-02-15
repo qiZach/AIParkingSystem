@@ -19,9 +19,11 @@ class GlobalSetting(object):
 
 
 class ParkingAdmin(object):
-    list_display = ['car_plate', 'parking_status', 'order_no', 'in_time', 'out_time']
+    list_display = ['car_plate', 'parking_status', 'order_no', 'in_time',
+                    'out_time']
     search_fields = ['car_plate', 'parking_status']
-    list_filter = ['car_plate', 'parking_status', 'order_no', 'in_time', 'out_time']
+    list_filter = ['car_plate', 'parking_status', 'order_no', 'in_time',
+                   'out_time']
 
 
 xadmin.site.register(Parking, ParkingAdmin)
