@@ -1,6 +1,4 @@
 # -*- coding:utf-8 -*-
-import cv2
-from hyperlpr import pipline as pp
 
 from hyperlpr import pipline as pp
 import cv2

@@ -33,4 +33,4 @@ class Order(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.order_no
+        return str(self.order_no)

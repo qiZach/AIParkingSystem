@@ -32,22 +32,27 @@ class IdentifyView(View):
                     if record.out_time is None:
                         # 出车
                         pay_url = purchase(request, record)
+                        if pay_url is None:
+                            return render(request, 'show_msg.html',
+                                          {'msg': '祝您一路顺风'})
+                        # 非空进入支付
                         return redirect(pay_url)
                 car_insert(car_plate)
             else:
                 # 没有数据,进行插入记录，调用service服务
                 car_insert(car_plate)
             # 假装欢迎光临页面
-            return render(request, "500.html")
+            return render(request, 'show_msg.html',
+                          {'msg': '欢迎光临'})
 
     def post(self, request):
         pass
 
 
 def purchase(request, record):
+    parking_fee = fee(record)
     # 传入要创建订单的那条停车信息, 并生成订单
     # 取13位时间戳+100内随机数作为订单号
-    parking_fee = fee(record)
     order_number = int(round(time.time() * 1000)) + random.randint(0, 100)
     Order.objects.create(order_no=order_number, car_plate=record.car_plate,
                          payment=parking_fee)
@@ -56,6 +61,13 @@ def purchase(request, record):
     record.parking_status = 'out'
     record.out_time = datetime.datetime.now()
     record.save()
+    # 计算停车费，免费时间段内就不支付了
+    if parking_fee <= 0:
+        Order.objects.filter(order_no=order_number).update(
+            order_status='1',
+            payment_type='1',
+            payment_time=datetime.datetime.now())
+        return None
 
     # 跳转到支付宝支付页面
     # 实例化AliPay

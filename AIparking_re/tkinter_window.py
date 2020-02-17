@@ -2,12 +2,12 @@
 __author__ = 'zhangsiqi'
 __date__ = '2020/2/8 17:42'
 
-import tkinter as tk
 import cv2
+import numpy as np
+import tkinter as tk
 from tkinter import ttk
 from tkinter.filedialog import *
 from PIL import Image, ImageTk
-import numpy as np
 
 from hyperlpr import pipline as pp
 
@@ -16,16 +16,16 @@ class Surface(ttk.Frame):
     camera = None
     camera_flag = False
 
-    def __init__(self, win):
-        ttk.Frame.__init__(self, win)
+    def __init__(self, window):
+        ttk.Frame.__init__(self, window)
         # 左边显示图片框架
         frame_left = ttk.Frame(self)
         # 右边定位框架
         frame_right1 = ttk.Frame(self)
         # 右边按钮框架
         frame_right2 = ttk.Frame(self)
-        win.title("车牌识别")
-        win.minsize(750, 600)
+        window.title("车牌识别")
+        window.minsize(750, 600)
         # 将窗口放在屏幕中央
         self.center_window()
         self.pack(fill=tk.BOTH, expand=tk.YES, padx="10", pady="10")
@@ -35,22 +35,27 @@ class Surface(ttk.Frame):
         frame_right2.pack(side=RIGHT, expand=0)
 
         # 创建左侧摄像头画布
-        self.image_ctl = tk.Canvas(frame_left, width=640, height=480, bg='white')
+        self.image_ctl = tk.Canvas(frame_left, width=640, height=480,
+                                   bg='white')
         self.image_ctl.pack()
 
         # 车牌识别结果
-        ttk.Label(frame_right1, text='定位识别结果：').grid(column=0, row=2, sticky=tk.W)
+        ttk.Label(frame_right1, text='定位识别结果：').grid(column=0, row=2,
+                                                     sticky=tk.W)
         self.r_ctl = ttk.Label(frame_right1, text="", font=('Times', '20'))
         self.r_ctl.grid(column=0, row=3, sticky=tk.W)
 
         # 车牌定位图片
-        ttk.Label(frame_right1, text='定位车牌位置：').grid(column=0, row=0, sticky=tk.W)
+        ttk.Label(frame_right1, text='定位车牌位置：').grid(column=0, row=0,
+                                                     sticky=tk.W)
         self.roi_ctl = ttk.Label(frame_right1)
         self.roi_ctl.grid(column=0, row=1, sticky=tk.W)
 
         # 控制按钮
-        from_video_time = ttk.Button(frame_right2, text="开关摄像头实时识别", width=20, command=self.from_video)
-        from_video_ctl = ttk.Button(frame_right2, text="拍照并识别", width=20, command=self.video_pic)
+        from_video_time = ttk.Button(frame_right2, text="开关摄像头实时识别", width=20,
+                                     command=self.from_video)
+        from_video_ctl = ttk.Button(frame_right2, text="拍照并识别", width=20,
+                                    command=self.video_pic)
         from_video_time.pack(anchor="se", pady="5")
         from_video_ctl.pack(anchor="se", pady="5")
 
@@ -60,7 +65,8 @@ class Surface(ttk.Frame):
         win.update()
         width = win.winfo_width()
         height = win.winfo_height()
-        size = '+%d+%d' % ((screenwidth - width) / 2, (screenheight - height) / 2)
+        size = '+%d+%d' % (
+            (screenwidth - width) / 2, (screenheight - height) / 2)
         print("center_window: ", end="")
         print(size)
         win.geometry(size)
