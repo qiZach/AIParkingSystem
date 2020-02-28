@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed4c58f2-55e9-4a0c-95bc-2e8796506b7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/apps/order/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="AIParkingSystem" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="AIParkingSystem" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="AIParkingSystem" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ai_parking_system: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Django default" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/QiSipro/AIParkingSystem.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\zhangsiqi\Github\AIParkingSystem\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xk46Oh8VU7ltRWgo2YjN8KeBVr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/order/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\apps\order" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\AIparking_re\resources" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\apps\parking\resources" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\apps\order\resources" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\AIparking_re\resources" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\apps\parking" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\AIparking_re" />
+      <recent name="G:\zhangsiqi\Github\AIParkingSystem\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.play_sound">
+    <configuration name="imread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking/imread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="imread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking_re/imread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="play_sound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\zhangsiqi\Github\AIParkingSystem\apps\order\play_sound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="play_sound" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/order" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/order/play_sound.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinter_vedio_display_with_canvas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking_re/tkinter_vedio_display_with_canvas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tkinter_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking_re/tkinter_window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AIParkingSystem" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AIParkingSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="AIParkingSystem.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.AIParkingSystem" />
+      <item itemvalue="Python.imread" />
+      <item itemvalue="Python.tkinter_vedio_display_with_canvas" />
+      <item itemvalue="Python.tkinter_window" />
+      <item itemvalue="Python.play_sound" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.play_sound" />
+        <item itemvalue="Python.play_sound" />
+        <item itemvalue="Python.tkinter_window" />
+        <item itemvalue="Python.imread" />
+        <item itemvalue="Python.imread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed4c58f2-55e9-4a0c-95bc-2e8796506b7b" name="Default Changelist" comment="" />
+      <created>1581576582334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581576582334</updated>
+      <workItem from="1581576595252" duration="339000" />
+      <workItem from="1581577035780" duration="7170000" />
+      <workItem from="1581667414477" duration="5186000" />
+      <workItem from="1581676196474" duration="660000" />
+      <workItem from="1581753136184" duration="23306000" />
+      <workItem from="1581838007875" duration="4427000" />
+      <workItem from="1581869159012" duration="2744000" />
+      <workItem from="1581922059727" duration="5543000" />
+      <workItem from="1582885775453" duration="20000" />
+      <workItem from="1582885836616" duration="66000" />
+      <workItem from="1582886092859" duration="476000" />
+      <workItem from="1582886678828" duration="38000" />
+      <workItem from="1582886746427" duration="50000" />
+      <workItem from="1582886820819" duration="226000" />
+      <workItem from="1582887311037" duration="10165000" />
+    </task>
+    <task id="LOCAL-00001" summary="上传环境">
+      <created>1581577266653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581577266653</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加支付宝配置">
+      <created>1581577559796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581577559796</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改数据库配置">
+      <created>1581578027896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581578027896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加xadmin配置">
+      <created>1581585969962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581585969963</updated>
+    </task>
+    <task id="LOCAL-00005" summary="停车信息表及xadmin下的关联完成">
+      <created>1581587554477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581587554477</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加停车信息表和订单表">
+      <created>1581673767622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581673767622</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加车牌识别模块">
+      <created>1581674145018</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581674145018</updated>
+    </task>
+    <task id="LOCAL-00008" summary="对接支付模块, 对进出车辆完美记录。">
+      <created>1581777331014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581777331014</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修复免费时间内，支付金额为0发送支付宝报错的问题。">
+      <created>1581926610399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581926610400</updated>
+    </task>
+    <task id="LOCAL-00010" summary="摄像头页面制作完毕，功能流程完整。">
+      <created>1581929268815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581929268815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加进入，出行语音播放。">
+      <created>1582896929805</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582896929805</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="上传环境" />
+    <MESSAGE value="添加支付宝配置" />
+    <MESSAGE value="修改数据库配置" />
+    <MESSAGE value="添加xadmin配置" />
+    <MESSAGE value="停车信息表及xadmin下的关联完成" />
+    <MESSAGE value="添加停车信息表和订单表" />
+    <MESSAGE value="添加车牌识别模块" />
+    <MESSAGE value="对接支付模块, 对进出车辆完美记录。" />
+    <MESSAGE value="修复免费时间内，支付金额为0发送支付宝报错的问题。" />
+    <MESSAGE value="摄像头页面制作完毕，功能流程完整。" />
+    <MESSAGE value="添加进入，出行语音播放。" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加进入，出行语音播放。" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="115" key="#Notifications" timestamp="1581929465325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="115" key="#Notifications/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929465325" />
+    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582901907715">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582901907715" />
+    <state x="2472" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581928000030" />
+    <state x="657" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581670809912">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="657" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581670809912" />
+    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2" timestamp="1582903332362">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903332362" />
+    <state x="444" y="96" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581929267985" />
+    <state x="184" y="95" key="DiffContextDialog" timestamp="1582903273150">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="184" y="95" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903273150" />
+    <state x="2623" y="238" key="FileChooserDialogImpl" timestamp="1581927874536">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2623" y="238" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927874536" />
+    <state width="1867" height="245" key="GridCell.Tab.0.bottom" timestamp="1582896516549">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1545" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="245" key="GridCell.Tab.0.center" timestamp="1582896516549">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="245" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1545" height="500" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="245" key="GridCell.Tab.0.left" timestamp="1582896516549">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="245" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1545" height="500" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="245" key="GridCell.Tab.0.right" timestamp="1582896516549">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="245" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1545" height="500" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="500" key="GridCell.Tab.1.bottom" timestamp="1581929956561">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1545" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="500" key="GridCell.Tab.1.center" timestamp="1581929956561">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="500" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1545" height="500" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="500" key="GridCell.Tab.1.left" timestamp="1581929956561">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="500" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1545" height="500" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="1867" height="500" key="GridCell.Tab.1.right" timestamp="1581929956561">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1867" height="500" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1545" height="500" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
+    <state width="316" height="550" key="HiddenNamespacesPopup" timestamp="1581577950117">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="316" height="550" key="HiddenNamespacesPopup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581577950117" />
+    <state x="345" y="98" key="SettingsEditor" timestamp="1582887479434">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="345" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582887479434" />
+    <state x="2265" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581869171624" />
+    <state x="881" y="438" key="VCS.ChangelistChooser" timestamp="1581667557545">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="881" y="438" key="VCS.ChangelistChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581667557545" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1582903278051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903278051" />
+    <state x="2372" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581929270402" />
+    <state x="768" y="368" width="400" height="344" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581773508082">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="768" y="368" width="400" height="344" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581773508082" />
+    <state x="719" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581586352691">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="719" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581586352691" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AIParkingSystem$imread__1_.coverage" NAME="imread (1) Coverage Results" MODIFIED="1581838443322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$tkinter_window.coverage" NAME="tkinter_window Coverage Results" MODIFIED="1581926087093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$tkinter_vedio_display_with_canvas.coverage" NAME="tkinter_vedio_display_with_canvas Coverage Results" MODIFIED="1581576799804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$imread.coverage" NAME="imread Coverage Results" MODIFIED="1581674050702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$play_sound__1_.coverage" NAME="play_sound (1) Coverage Results" MODIFIED="1582896219415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/order" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$play_sound.coverage" NAME="play_sound Coverage Results" MODIFIED="1582896147665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
+  </component>
+</project>
