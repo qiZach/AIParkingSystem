@@ -1,9 +1,13 @@
 # coding:utf-8
+
+import os
 import random
 import time
 import datetime
+import threading
 from django.shortcuts import render, redirect
 from django.views.generic.base import View
+from playsound import playsound
 
 from .models import Parking
 from .forms import IdentifyForm
@@ -41,12 +45,18 @@ class IdentifyView(View):
             else:
                 # 没有数据,进行插入记录，调用service服务
                 car_insert(car_plate)
-            # 假装欢迎光临页面
+            # 欢迎光临
+            threading.Thread(target=self.play).start()
             return render(request, 'show_msg.html',
                           {'msg': '欢迎光临'})
 
     def post(self, request):
         pass
+
+    def play(self):
+        path = os.path.abspath('resources/welcome.wav')
+        print(path)
+        playsound(path)
 
 
 def purchase(request, record):

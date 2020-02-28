@@ -1,10 +1,12 @@
 # coding:utf-8
 
+import os
 import datetime
-from django.shortcuts import render, redirect, HttpResponse
+from django.shortcuts import render, HttpResponse
+from playsound import playsound
+import threading
 
 from .models import Order
-from parking.models import Parking
 from utils.pay import AliPay
 
 
@@ -68,8 +70,15 @@ def check_order(request):
                 order_status='1',
                 payment_type='1',
                 payment_time=datetime.datetime.now())
+            threading.Thread(target=play).start()
             return HttpResponse('success')  # 向支付宝返回success,表示接收到请求
         else:
             return HttpResponse('支付失败')
     else:
         return HttpResponse('只支持POST请求')
+
+
+def play():
+    path = os.path.abspath('resources/safe_drive.mp3')
+    print(path)
+    playsound(path)
