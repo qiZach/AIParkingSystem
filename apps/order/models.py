@@ -39,9 +39,9 @@ class Order(models.Model):
 class Charge(models.Model):
     charge_name = models.CharField(max_length=50, null=False, blank=False,
                                    verbose_name="收费标准名")
-    pay_level_1 = models.IntegerField(verbose_name='第一时段')
-    pay_level_2 = models.IntegerField(verbose_name='第二时段')
-    pay_level_3 = models.IntegerField(verbose_name='第三时段')
+    pay_level_1 = models.IntegerField(verbose_name='第一时段1-5小时')
+    pay_level_2 = models.IntegerField(verbose_name='第二时段5-12小时')
+    pay_level_3 = models.IntegerField(verbose_name='第三时段12-24小时')
     create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
     update_time = models.DateTimeField(null=True, blank=True, auto_now=True,
                                        verbose_name='更新时间')
@@ -61,9 +61,6 @@ class Discount(models.Model):
     start_time = models.DateTimeField(null=True, blank=True,
                                       verbose_name='开始时间')
     end_time = models.DateTimeField(null=True, blank=True, verbose_name='结束时间')
-    status = models.CharField(max_length=2, default='0',
-                              verbose_name='此收费标准使用状态',
-                              choices=(('1', '正在使用'), ('0', '未使用')))
     create_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
     update_time = models.DateTimeField(null=True, blank=True, auto_now=True,
                                        verbose_name='更新时间')
@@ -73,4 +70,4 @@ class Discount(models.Model):
         verbose_name_plural = verbose_name
 
     def __str__(self):
-        return self.discount
+        return self.discount_name

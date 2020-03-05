@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4c58f2-55e9-4a0c-95bc-2e8796506b7b" name="Default Changelist" comment="">
+    <list default="true" id="ed4c58f2-55e9-4a0c-95bc-2e8796506b7b" name="Default Changelist" comment="静态文件和环境">
+      <change afterPath="$PROJECT_DIR$/apps/order/migrations/0009_auto_20200229_1447.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9a72d0eb-5127-456f-9a4d-c3ebbc6e2c0b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9a72d0eb-5127-456f-9a4d-c3ebbc6e2c0b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/order/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/order/play_sound.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/order/play_sound.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/parking/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/parking/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/parking/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/parking/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/safe_drive.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/resources/safe_drive.mp3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,29 +120,7 @@
       <recent name="G:\zhangsiqi\Github\AIParkingSystem\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.play_sound">
-    <configuration name="imread" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIParkingSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking/imread.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Django server.AIParkingSystem">
     <configuration name="imread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIParkingSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,28 +143,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="play_sound" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIParkingSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="G:\zhangsiqi\Github\AIParkingSystem\apps\order\play_sound.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="play_sound" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AIParkingSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,50 +157,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/order/play_sound.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tkinter_vedio_display_with_canvas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIParkingSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking_re/tkinter_vedio_display_with_canvas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tkinter_window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AIParkingSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AIparking_re" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AIparking_re/tkinter_window.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,19 +189,9 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Django server.AIParkingSystem" />
-      <item itemvalue="Python.imread" />
-      <item itemvalue="Python.tkinter_vedio_display_with_canvas" />
-      <item itemvalue="Python.tkinter_window" />
-      <item itemvalue="Python.play_sound" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.play_sound" />
-        <item itemvalue="Python.play_sound" />
-        <item itemvalue="Python.tkinter_window" />
-        <item itemvalue="Python.imread" />
         <item itemvalue="Python.imread" />
       </list>
     </recent_temporary>
@@ -322,7 +232,8 @@
       <workItem from="1582886678828" duration="38000" />
       <workItem from="1582886746427" duration="50000" />
       <workItem from="1582886820819" duration="226000" />
-      <workItem from="1582887311037" duration="10165000" />
+      <workItem from="1582887311037" duration="10420000" />
+      <workItem from="1582956606212" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="上传环境">
       <created>1581577266653</created>
@@ -401,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582896929805</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加进入，出行语音播放。">
+      <created>1582903205302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582903205302</updated>
+    </task>
+    <task id="LOCAL-00013" summary="静态文件和环境">
+      <created>1582903365830</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582903365830</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,26 +388,27 @@
     <MESSAGE value="修复免费时间内，支付金额为0发送支付宝报错的问题。" />
     <MESSAGE value="摄像头页面制作完毕，功能流程完整。" />
     <MESSAGE value="添加进入，出行语音播放。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加进入，出行语音播放。" />
+    <MESSAGE value="静态文件和环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态文件和环境" />
   </component>
   <component name="WindowStateProjectService">
     <state x="452" y="115" key="#Notifications" timestamp="1581929465325">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="452" y="115" key="#Notifications/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929465325" />
-    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582901907715">
+    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582958389674">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582901907715" />
+    <state x="552" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582958389674" />
     <state x="2472" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581928000030" />
     <state x="657" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581670809912">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="657" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581670809912" />
-    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2" timestamp="1582903332362">
+    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2" timestamp="1582903403848">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903332362" />
+    <state x="489" y="63" width="1144" height="954" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903403848" />
     <state x="444" y="96" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581929267985" />
     <state x="184" y="95" key="DiffContextDialog" timestamp="1582903273150">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -492,45 +418,45 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2623" y="238" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927874536" />
-    <state width="1867" height="245" key="GridCell.Tab.0.bottom" timestamp="1582896516549">
+    <state width="1867" height="500" key="GridCell.Tab.0.bottom" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1867" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="245" key="GridCell.Tab.0.center" timestamp="1582896516549">
+    <state width="1867" height="500" key="GridCell.Tab.0.center" timestamp="1582967936617">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1867" height="500" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936617" />
     <state width="1545" height="500" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="245" key="GridCell.Tab.0.left" timestamp="1582896516549">
+    <state width="1867" height="500" key="GridCell.Tab.0.left" timestamp="1582967936617">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1867" height="500" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936617" />
     <state width="1545" height="500" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="245" key="GridCell.Tab.0.right" timestamp="1582896516549">
+    <state width="1867" height="500" key="GridCell.Tab.0.right" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="245" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582896516549" />
+    <state width="1867" height="500" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="500" key="GridCell.Tab.1.bottom" timestamp="1581929956561">
+    <state width="1867" height="500" key="GridCell.Tab.1.bottom" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1867" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="500" key="GridCell.Tab.1.center" timestamp="1581929956561">
+    <state width="1867" height="500" key="GridCell.Tab.1.center" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="500" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1867" height="500" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="500" key="GridCell.Tab.1.left" timestamp="1581929956561">
+    <state width="1867" height="500" key="GridCell.Tab.1.left" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="500" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1867" height="500" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
-    <state width="1867" height="500" key="GridCell.Tab.1.right" timestamp="1581929956561">
+    <state width="1867" height="500" key="GridCell.Tab.1.right" timestamp="1582967936618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1867" height="500" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581929956561" />
+    <state width="1867" height="500" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582967936618" />
     <state width="1545" height="500" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581927188200" />
     <state width="316" height="550" key="HiddenNamespacesPopup" timestamp="1581577950117">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -545,10 +471,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="881" y="438" key="VCS.ChangelistChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1581667557545" />
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1582903278051">
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2" timestamp="1582903367793">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903278051" />
+    <state x="452" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582903367793" />
     <state x="2372" y="208" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1581929270402" />
     <state x="768" y="368" width="400" height="344" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581773508082">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -561,10 +487,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AIParkingSystem$imread__1_.coverage" NAME="imread (1) Coverage Results" MODIFIED="1581838443322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
-    <SUITE FILE_PATH="coverage/AIParkingSystem$tkinter_window.coverage" NAME="tkinter_window Coverage Results" MODIFIED="1581926087093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$tkinter_window.coverage" NAME="tkinter_window Coverage Results" MODIFIED="1582958354430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
     <SUITE FILE_PATH="coverage/AIParkingSystem$tkinter_vedio_display_with_canvas.coverage" NAME="tkinter_vedio_display_with_canvas Coverage Results" MODIFIED="1581576799804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking" />
     <SUITE FILE_PATH="coverage/AIParkingSystem$imread.coverage" NAME="imread Coverage Results" MODIFIED="1581674050702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking" />
     <SUITE FILE_PATH="coverage/AIParkingSystem$play_sound__1_.coverage" NAME="play_sound (1) Coverage Results" MODIFIED="1582896219415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/order" />
-    <SUITE FILE_PATH="coverage/AIParkingSystem$play_sound.coverage" NAME="play_sound Coverage Results" MODIFIED="1582896147665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AIparking_re" />
+    <SUITE FILE_PATH="coverage/AIParkingSystem$play_sound.coverage" NAME="play_sound Coverage Results" MODIFIED="1582958230341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/order" />
   </component>
 </project>

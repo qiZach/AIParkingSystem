@@ -8,7 +8,7 @@ from playsound import playsound
 
 
 def play():
-    path = os.path.abspath('../../resources/welcome.wav')
+    path = os.path.abspath('../../resources/safe_drive.mp3')
     print(path)
     playsound(path)
 

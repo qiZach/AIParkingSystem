@@ -17,17 +17,14 @@ class OrderAdmin(object):
 class ChargeAdmin(object):
     list_display = ['charge_name', 'pay_level_1', 'pay_level_2', 'pay_level_3',
                     'create_time', 'update_time']
-    search_fields = ['charge_name']
-    list_filter = ['charge_name', 'pay_level_1', 'pay_level_2', 'pay_level_3',
-                   'create_time', 'update_time']
 
 
 class DiscountAdmin(object):
     list_display = ['discount_name', 'discount', 'start_time', 'end_time',
-                    'status', 'create_time', 'update_time']
+                    'create_time', 'update_time']
     search_fields = ['discount_name', 'discount']
     list_filter = ['discount_name', 'discount', 'start_time', 'end_time',
-                   'status', 'create_time', 'update_time']
+                   'create_time', 'update_time']
 
 
 xadmin.site.register(Order, OrderAdmin)

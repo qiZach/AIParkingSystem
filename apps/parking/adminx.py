@@ -7,11 +7,6 @@ import xadmin
 from xadmin import views
 
 
-class BaseSetting(object):
-    enable_themes = True
-    use_bootswatch = True
-
-
 class GlobalSetting(object):
     site_title = '智能停车场收费系统后台'
     site_footer = '智能停车场收费系统'
@@ -28,4 +23,3 @@ class ParkingAdmin(object):
 
 xadmin.site.register(Parking, ParkingAdmin)
 xadmin.site.register(views.CommAdminView, GlobalSetting)
-xadmin.site.register(views.BaseAdminView, BaseSetting)

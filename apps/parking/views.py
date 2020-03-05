@@ -13,7 +13,7 @@ from .models import Parking
 from .forms import IdentifyForm
 
 from utils.pay import AliPay
-from order.models import Order
+from order.models import Order, Charge, Discount
 
 
 # Create your views here.
@@ -60,7 +60,8 @@ class IdentifyView(View):
 
 
 def purchase(request, record):
-    parking_fee = fee(record)
+    # 费用保留两位小数
+    parking_fee = round(fee(record), 2)
     # 传入要创建订单的那条停车信息, 并生成订单
     # 取13位时间戳+100内随机数作为订单号
     order_number = int(round(time.time() * 1000)) + random.randint(0, 100)
@@ -109,10 +110,18 @@ def purchase(request, record):
 
 def fee(record):
     """
-    收费标准：30m内免费，超过30m小于1h按1h收费5元.
-             之后每小时收费5元，每天120元封顶。
-    :param record:
-    :return: fee
+    收费标准：30m内免费，超过30m小于1h按1h收费。
+    停车时间分为三个挡位，
+    1-5小时
+    5-12小时
+    12-24小时
+    超过24小时按第三时段收费。
+
+    标准收费：数据库中只有一条，也可以有多条，分大车小车。
+    折扣优惠：可以有多条，根据停车进入时间进行判断，在某一活动内则计算折扣。
+    由于车牌识别无法识别车型故无大车小车区分。
+    :param record:停车记录
+    :return: fee :费用
     """
     # 传入停车记录，取出停车时间计算停车费
     now = datetime.datetime.now()
@@ -123,13 +132,34 @@ def fee(record):
     minutes = int(seconds / 60)
     hours = int(minutes / 60)
     minutes -= hours * 60
+    # 取出收费标准和判断是否有折扣
+    charge = Charge.objects.get(charge_name='标准收费')
+    discounts = Discount.objects.filter()
+    rate = 1.0
+    level_1 = 5 * charge.pay_level_1
+    level_2 = 7 * charge.pay_level_2
+    level_3 = 12 * charge.pay_level_3
+    for discount in discounts:
+        if (in_time - discount.start_time).seconds > 0 and (discount.end_time
+                                                            - in_time).seconds > 0:
+            # 如果进入时在活动区间, 可以多活动叠加 算出所有活动叠加的最终折扣
+            rate = rate * discount.discount / 10
     # 半小时内免费
     if hours == 0 and minutes < 30:
         return 0
     elif hours == 0 and minutes >= 30:
-        return 5
-    else:
-        return (hours + 1) * 5
+        # 按一个小时算, 没活动还是一个小时
+        return charge.pay_level_1 * rate
+    # 按挡位区间去算
+    elif 1 <= hours <= 5:
+        return ((hours + 1) * charge.pay_level_1) * rate
+    elif 5 < hours <= 12:
+        return (level_1 + (hours - 5) * charge.pay_level_2) * rate
+    elif 12 < hours <= 24:
+        return (level_1 + level_2 + (hours - 12) * charge.pay_level_3) * rate
+    elif hours > 24:
+        return (level_1 + level_2 + level_3 + (hours - 24) *
+                charge.pay_level_3) * rate
 
 
 def car_insert(car_plate):
